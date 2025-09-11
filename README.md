@@ -1,2 +1,3 @@
-# website
-The official website
+# hackergang.dev
+
+The official team website
