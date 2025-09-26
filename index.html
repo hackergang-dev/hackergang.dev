@@ -8,6 +8,13 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
 
+    <script>
+      fetch('./assets/ascii_gang.txt')
+              .then(response => response.text())
+              .then(text => console.log(text))
+              .catch(error => console.error('Fehler beim Laden:', error));
+    </script>
+
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&display=swap');
 
